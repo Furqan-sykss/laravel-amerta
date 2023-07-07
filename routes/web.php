@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\daftar_articleController;
+use App\Http\Controllers\filsafatController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,14 +22,15 @@ use App\Http\Controllers\daftar_articleController;
 //     dd("ggal". $e->getMessage());
 // }
 Route::get('/home', [daftar_articleController::class, 'show']);
+Route::get('/filsafat', [filsafatController::class, 'show']);
 
 
 // Route::get('/', function () {
 //     return view('home');
 // });
-Route::get('filsafat', function () {
-    return view('filsafat');
-});
+// Route::get('filsafat', function () {
+//     return view('filsafat');
+// });
 // Route::get('home', function () {
 //     return view('home');
 // });

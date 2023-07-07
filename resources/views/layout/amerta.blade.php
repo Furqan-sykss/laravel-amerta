@@ -9,6 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
             
   <style>
+    .no-underline {
+        text-decoration: none;
+    }
+
             .blog-header {
     border-bottom: 2px solid #e5e5e5;
   }
@@ -50,24 +54,22 @@ h1,h2,h3,h4,h5,h6 {
 
     </head>
     
-    <body style="font-family: 'EB Garamond', serif;">
+    <body style="font-family: 'EB Garamond', serif; text-color: #214252;">
         <div class="container">
             <header class="blog-header lh-1 py-3">
-              <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-8">
-                  <a class="blog-header-logo text-dark" href="../home">Amerta</a>
+              <div class="row flex-nowrap ">
+                <div class="col text-center">
+                  <a class="blog-header-logo no-underline" style="color: #214252;" href="../home"><b>Amerta</b></a>
                 </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
-                  <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
-                </div>
+                
               </div>
             </header>
           
-            <div class="nav-scroller py-1 mb-2 sticky">
+            <div class="nav-scroller py-1 mb-2 sticky" style="color: #214252;">
               <nav class="nav d-flex justify-content-center sticky-top">
-                <a class="p-2 link-dark " href="../home"><h4>Home</h4></a>
-                <a class="p-2 link-dark " href="../sejarah"><h4>Sejarah</h4></a>
-                <a class="p-2 link-dark " href="../filsafat"><h4>Filsafat</h4></a>              
+                <a class="p-2 link  no-underline" style="color: #214252;" href="../home"><h4>Home</h4></a>
+                <a class="p-2 link  no-underline" style="color: #214252;" href="../sejarah"><h4>Sejarah</h4></a>
+                <a class="p-2 link  no-underline" style="color: #214252;" href="../filsafat"><h4>Filsafat</h4></a>              
               </nav>
             </div>
           </div>

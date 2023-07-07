@@ -20,11 +20,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#214252" fill-opacity="1" d="M0,256L60,266.7C120,277,240,299,360,261.3C480,224,600,128,720,122.7C840,117,960,203,1080,218.7C1200,235,1320,181,1380,154.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg><footer class="site-footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 ">
                 <div class="widget">
                     <h3>About</h3>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                </div> <!-- /.widget -->
+                  </div> <!-- /.widget -->
+                  <p>
+                    Kami juga percaya bahwa filsafat adalah sarana penting untuk memahami dunia dan eksistensi kita. Melalui penerapan logika, rasionalitas, dan refleksi filosofis, kita dapat menjawab pertanyaan-pertanyaan mendalam tentang kehidupan, etika, pengetahuan, dan realitas. Di situs web kami, kami menyajikan gagasan dan konsep filsafat dalam format yang mudah dipahami, sehingga setiap orang dapat terlibat dan merenungkan makna yang lebih dalam.
+                  </p>
                 <div class="widget">
                     <h3>Social</h3>
                         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -38,7 +41,7 @@
                           </svg>
                 </div> <!-- /.widget -->
             </div> <!-- /.col-lg-4 -->
-            
+           
         </div> <!-- /.row -->
 
         <div class="row">

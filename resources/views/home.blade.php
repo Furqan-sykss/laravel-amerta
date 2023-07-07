@@ -94,7 +94,7 @@
 
 </style>
 <!-- Start retroy layout blog posts -->
-<section class="section bg-light">
+<section class="section " style="background-color: #214252;">
   <div class="container">
     <div class="row align-items-stretch retro-layout mt-3">
       <div class="col-md-4">
@@ -191,7 +191,7 @@
     </div>
 
     <!--start JUMBOTRON-->
-    <section class="section bg-light mt-5">
+    <section class="section  mt-5" style="background-color: #214252;">
       <div class="container">
         <div class="row align-items-stretch">
           <div class="mt-5 p-5 mb-4 bg-light rounded-3 text-bg-dark" style="background-image: url('img/{{ $daftar_article[8]->foto }}')" >
@@ -226,8 +226,8 @@
 
 <div class="container mt-5">
   <div class="row text-center mb-3">
-    <div class="col">
-        <h1>Baca lagi</h1>
+    <div class="col" style="color: #214252;">
+        <h1><b>Baca Lagi</b></h1>
         <h2>Berikut rekomendasi artikel</h2>
     </div>
 </div>
@@ -238,13 +238,13 @@
             <div class="col-md-6">
                 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h4 class="mb-auto">asasfasfasf</h4>
-                        <h6 class="mb-auto text-secondary">asasdasdasd</h6>
+                        <strong class="d-inline-block mb-2 text-primary"></strong>
+                        <h4 class="mb-auto">{{$daftar_article[10]->judul}}</h4>
+                        <h6 class="mb-auto text-secondary">{{$daftar_article[10]->judul2}}</h6>
                         <a href="art2.php" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img src="img/sipilwar2.jpg" width="230" height="250" alt="">
+                        <img src="img/{{ $daftar_article[10]->foto }}" width="230" height="250" alt="">
                     </div>
                 </div>
             </div>
@@ -252,12 +252,12 @@
                 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h4 class="mb-auto">asasfasfasf</h4>
-                        <h6 class="mb-auto text-secondary">asasdasdasd</h6>
+                        <h4 class="mb-auto">{{$daftar_article[11]->judul}}</h4>
+                        <h6 class="mb-auto text-secondary">{{$daftar_article[11]->judul2}}</h6>
                         <a href="art2.php" class="stretched-link">Continue reading</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <img src="img/sipilwar2.jpg" width="230" height="250" alt="">
+                        <img src="img/{{ $daftar_article[11]->foto }}" width="230" height="250" alt="">
                     </div>
                 </div>
             </div>
@@ -266,10 +266,11 @@
     <div class="row" data-masonry='{"percentPosition": true }'>
         <div class="col-sm-6 col-lg-4 mb-4">
           <div class="card">
-<img src="img/sipilwar2.jpg" alt="">        
+            <img src="img/{{ $daftar_article[12]->foto }}" alt="">        
             <div class="card-body">
-              <h5 class="card-title">Card title that wraps to a new line</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">{{$daftar_article[12]->judul}}</h5>
+              <p class="card-text">{{$daftar_article[12]->judul2}}.</p>
+              <a href="#" class="stretched-link"></a>
             </div>
           </div>
         </div>
@@ -277,72 +278,81 @@
           <div class="card p-3">
             <figure class="p-3 mb-0">
               <blockquote class="blockquote">
-                <p>A well-known quote, contained in a blockquote element.</p>
+                <p>{{$daftar_article[13]->judul}}</p>
               </blockquote>
               <figcaption class="blockquote-footer mb-0 text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                {{$daftar_article[13]->judul2}}
               </figcaption>
+              <a href="#" class="stretched-link"></a>
             </figure>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
           <div class="card">
-            <img src="img/sipilwar1.jpg" alt="" srcset="">        
+            <img src="img/{{ $daftar_article[14]->foto }}" alt="" srcset="">        
             <div class="card-body">
-              <h5 class="card-title">ini adalah</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">{{$daftar_article[14]->judul}}</h5>
+              <p class="card-text">{{$daftar_article[14]->judul2}}.</p>
+              <a href="#" class="stretched-link"></a>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
-          <div class="card text-bg-primary text-center p-3">
+          <div class="card text-center p-3" style="background-color: #214252;">
             <figure class="mb-0">
-              <blockquote class="blockquote">
-                <p>A well-known quote, contained in a blockquote element.</p>
+              <blockquote class="blockquote text-white">
+                <p>{{$daftar_article[15]->judul}}.</p>
               </blockquote>
               <figcaption class="blockquote-footer mb-0 text-white">
-                Someone famous in <cite title="Source Title">Source Title</cite>
+                {{$daftar_article[15]->judul2}}
               </figcaption>
+              <a href="#" class="stretched-link"></a>
             </figure>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
           <div class="card text-center">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has a regular title and short paragraph of text below it.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">{{$daftar_article[16]->judul}}</h5>
+              <p class="card-text">{{$daftar_article[16]->judul2}}.</p>
+              <a href="#" class="stretched-link"></a>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
           <div class="card">
-            <img src="img/kons1.jpg" alt="">        
+            <img src="img/{{ $daftar_article[17]->foto }}" alt="">
+            <a href="#" class="stretched-link"></a>        
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
-          <div class="card p-3 text-end">
+          <div class="card p-3 text-center">
             <figure class="mb-0">
-              <blockquote class="blockquote">
-                <p>A well-known quote, contained in a hola element.</p>
-              </blockquote>
-              <figcaption class="blockquote-footer mb-0 text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </figcaption>
+              <h5 class="card-title">{{$daftar_article[17]->judul}}</h5>
+              <p class="card-text">{{$daftar_article[17]->judul2}}.</p>
+              <a href="#" class="stretched-link"></a>
             </figure>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">{{$daftar_article[18]->judul}}</h5>
+              <p class="card-text">{{$daftar_article[18]->judul2}}.</p>
+              <a href="#" class="stretched-link"></a>
             </div>
           </div>
         </div>
       </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row text-center mb-3">
+    <div class="col" style="color: #214252;">
+        <h1><b>Baca Lagi</b></h1>
+        <h2>Berikut rekomendasi artikel</h2>
+    </div>
+</div>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 

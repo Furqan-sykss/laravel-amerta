@@ -92,7 +92,7 @@
     
         <div class="p-5 mb-4 bg-light rounded-3 text-bg-dark" style="background-image: url(img/rmph.jpg)" >
             <div class="col-md-6 px-0 border" style="backdrop-filter: blur(5px); text-shadow: 2px 2px 5px black;">
-                <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                <h1 class="display-5 fw-bold">Lorem ipsum dolor sit amet.</h1>
                 <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
               </div>
             </div>
