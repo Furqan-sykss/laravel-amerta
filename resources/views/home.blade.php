@@ -41,7 +41,8 @@
   .retro-layout .h-entry:hover .featured-img {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1); }
+    transform: scale(1);
+  opacity:.8; }
   .retro-layout .h-entry.mb-30 {
     margin-bottom: 30px; }
   .retro-layout .h-entry .date {
@@ -95,55 +96,55 @@
 <!-- Start retroy layout blog posts -->
 <section class="section bg-light">
   <div class="container">
-    <div class="row align-items-stretch retro-layout">
+    <div class="row align-items-stretch retro-layout mt-3">
       <div class="col-md-4">
         <a href="single.html" class="h-entry mb-30 v-height gradient">
 
-          <div class="featured-img" style="background-image: url('img/marcus2.png');"></div>
+          <div class="featured-img" style="background-image: url('img/{{ $daftar_article[0]->foto }}');"></div>
 
           <div class="text">
             <span class="date">Apr. 14th, 2022</span>
-            <h2>AI can now kill those annoying cookie pop-ups</h2>
+            <h2>{{$daftar_article[0]->judul}}</h2>
           </div>
         </a>
         <a href="single.html" class="h-entry v-height gradient">
 
-          <div class="featured-img" style="background-image: url('img/albertcamus.jpg');"></div>
+          <div class="featured-img" style="background-image: url('img/{{ $daftar_article[2]->foto }}');"></div>
 
           <div class="text">
             <span class="date">Apr. 14th, 2022</span>
-            <h2>Don’t assume your user data in the cloud is safe</h2>
+            <h2>{{$daftar_article[2]->judul}}</h2>
           </div>
         </a>
       </div>
       <div class="col-md-4">
         <a href="single.html" class="h-entry img-5 h-100 gradient">
 
-          <div class="featured-img" style="background-image: url('img/article4.png');"></div>
+          <div class="featured-img" style="background-image: url('img/{{ $daftar_article[1]->foto }}');"></div>
 
           <div class="text">
-            <span class="date">Apr. 14th, 2022</span>
-            <h2>Why is my internet so slow?</h2>
+            <span class="date">Apr. 14th, 202</span>
+            <h2>{{$daftar_article[1]->judul}}</h2>
           </div>
         </a>
       </div>
       <div class="col-md-4">
         <a href="single.html" class="h-entry mb-30 v-height gradient">
 
-          <div class="featured-img" style="background-image: url('img/seneca.jpg');"></div>
+          <div class="featured-img" style="background-image: url('img/{{ $daftar_article[3]->foto }}');"></div>
 
           <div class="text">
             <span class="date">Apr. 14th, 2022</span>
-            <h2>Startup vs corporate: What job suits you best?</h2>
+            <h2>{{$daftar_article[3]->judul}}</h2>
           </div>
         </a>
         <a href="single.html" class="h-entry v-height gradient">
 
-          <div class="featured-img" style="background-image: url('img/teukudaud.jpg');"></div>
+          <div class="featured-img" style="background-image: url('img/{{ $daftar_article[4]->foto }}');"></div>
 
           <div class="text">
             <span class="date">Apr. 23th, 2022</span>
-            <h2>Thought you loved Python? Wait until you meet Rust</h2>
+            <h2>{{$daftar_article[4]->judul}}</h2>
           </div>
         </a>
       </div>
@@ -160,21 +161,21 @@
         </div>
         <div class="carousel-inner  border rounded shadow-sm h-md-250">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="img/albert.jpg" class="d-block w-100" alt="...">
+                <img src="img/{{ $daftar_article[5]->foto }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <p>{{$daftar_article[5]->judul}}.</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="img/acehditii.jpg" class="d-block w-100" alt="...">
+                <img src="img/{{ $daftar_article[6]->foto }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <p>{{$daftar_article[6]->judul}}.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/art11.jpg" class="d-block w-100" alt="...">
+                <img src="img/{{ $daftar_article[7]->foto }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <p>{{$daftar_article[7]->judul}}.</p>
                 </div>
             </div>
         </div>
@@ -186,30 +187,50 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-    </div>
-
-    <div class="mt-5 p-5 mb-4 bg-light rounded-3 text-bg-dark" style="background-image: url(img/rmph.jpg)" >
-      <div class="col-md-6 px-0 border" style="backdrop-filter: blur(5px); text-shadow: 2px 2px 5px black;">
-          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-          <p class="col-md-8 fs-4 ">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
       </div>
-  </div>
-
-    <div class="col">
-        
-            <div class="row featurette mt-5 mb-3 border rounded overflow-hidden shadow-sm h-md-250 position-relative">
-                <div class="col-md-7 mt-2">
-                    <h2 class="featurette-heading fw-normal lh-1">jadikans asdasd</h2>
-                    <p class="lead" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">asasfaskfasf asf.</p>
-                    <a href="art1.php" class="stretched-link"></a>
-                </div>
-                <div class="col-md-5 mt-2 mb-3">
-                    <img src="img/sipilwar1.jpg" width="500" height="500" class="img-thumbnail" alt="...">
-                </div>
-            </div>
-        
     </div>
 
+    <!--start JUMBOTRON-->
+    <section class="section bg-light mt-5">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="mt-5 p-5 mb-4 bg-light rounded-3 text-bg-dark" style="background-image: url('img/{{ $daftar_article[8]->foto }}')" >
+            <div class="mt-3 col-md-6 px-0 border" style="backdrop-filter: blur(5px); text-shadow: 2px 2px 5px black;">
+              <h1 class="display-5 fw-bold">{{$daftar_article[8]->judul}}</h1>
+              <p class="col-md-8 fs-4 ">{{$daftar_article[8]->judul2}}.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End JUMBOTRON-->
+
+
+    <div class="container mt-5">
+      <div class="col">
+        <div class="row featurette mt-5 mb-3 border rounded overflow-hidden shadow-sm h-md-250 position-relative">
+          <div class="col-md-7 mt-2">
+            <h2 class="featurette-heading fw-normal lh-1">{{$daftar_article[9]->judul}}</h2>
+            <p class="lead" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">{{$daftar_article[9]->judul2}}.</p>
+            <a href="art1.php" class="stretched-link"></a>
+          </div>
+          <div class="col-md-5 mt-2 mb-3">
+            <img src="img/{{ $daftar_article[9]->foto }}" width="500" height="500" class="img-thumbnail" alt="...">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+
+<div class="container mt-5">
+  <div class="row text-center mb-3">
+    <div class="col">
+        <h1>Baca lagi</h1>
+        <h2>Berikut rekomendasi artikel</h2>
+    </div>
+</div>
 </div>
 <div class="container mt-5">
     <div class="col">
@@ -323,43 +344,6 @@
         </div>
       </div>
 </div>
-
-<div class="container mt-5">
-  <div class="row text-center mb-3">
-    <div class="col">
-        <h1>Baca lagi</h1>
-        <h2>Berikut rekomendasi artikel</h2>
-    </div>
-</div>
-<!-- START THE FEATURETTES -->
-
-<div class="container-lg">
-        <hr class="featurette-divider mb-3 ">
-        <div class="row featurette mb-3 border rounded overflow-hidden shadow-sm h-md-250 position-relative">
-            <div class="col-md-7 mt-2">
-                <h2 class="featurette-heading fw-normal lh-1"> Lorem, ipsum dolor.</h2>
-                <p class="lead" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates ea harum architecto saepe repudiandae.</p>
-                <a href="belajar.php" class="stretched-link">Lorem ipsum dolor sit amet.</a>
-            </div>
-            <div class="col-md-5 mt-2 mb-3">
-                <img src="img/art11.jpg " width="500" height="500" class="img-thumbnail" alt="...">
-                </svg>
-            </div>
-        </div>
-        <div class="row featurette mb-3 border rounded overflow-hidden shadow-sm h-md-250 position-relative">
-          <div class="col-md-5 mt-2 mb-3">
-              <img src="img/art11.jpg " width="500" height="500" class="img-thumbnail" alt="...">
-              </svg>
-          </div>
-            <div class="col-md-7 mt-2">
-                <h2 class="featurette-heading fw-normal lh-1"> Lorem, ipsum dolor.</h2>
-                <p class="lead" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium voluptates ea harum architecto saepe repudiandae.</p>
-                <a href="belajar.php" class="stretched-link">Lorem ipsum dolor sit amet.</a>
-            </div>
-        </div>
-</div>
-</div>
-<!-- END THE FEATURETTES -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>

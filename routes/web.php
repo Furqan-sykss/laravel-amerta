@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\daftar_articleController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,15 +13,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// try{
+//     DB::connection()->getPdo();
+//     dd("terkoneksi");
+// }
+// catch(\exception $e){
+//     dd("ggal". $e->getMessage());
+// }
+Route::get('/home', [daftar_articleController::class, 'show']);
+
+
+// Route::get('/', function () {
+//     return view('home');
+// });
 Route::get('filsafat', function () {
     return view('filsafat');
 });
-Route::get('home', function () {
-    return view('home');
-});
+// Route::get('home', function () {
+//     return view('home');
+// });
 Route::get('sejarah', function () {
     return view('sejarah');
 });
