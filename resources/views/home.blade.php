@@ -97,13 +97,13 @@
 <section class="section " style="background-color: #214252;">
   <div class="container">
     <div class="row align-items-stretch retro-layout mt-3">
-      <div class="col-md-4">
+      <div class="col-md-4 py-4">
         <a href="single.html" class="h-entry mb-30 v-height gradient">
 
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[0]->foto }}');"></div>
 
           <div class="text">
-            <span class="date">Apr. 14th, 2022</span>
+            <span class="date">July 08, 2023</span>
             <h2>{{$daftar_article[0]->judul}}</h2>
           </div>
         </a>
@@ -112,29 +112,29 @@
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[2]->foto }}');"></div>
 
           <div class="text">
-            <span class="date">Apr. 14th, 2022</span>
+            <span class="date">July 08, 2023</span>
             <h2>{{$daftar_article[2]->judul}}</h2>
           </div>
         </a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 py-4">
         <a href="single.html" class="h-entry img-5 h-100 gradient">
 
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[1]->foto }}');"></div>
 
           <div class="text">
-            <span class="date">Apr. 14th, 202</span>
+            <span class="date">July 08, 2023</span>
             <h2>{{$daftar_article[1]->judul}}</h2>
           </div>
         </a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 py-4">
         <a href="single.html" class="h-entry mb-30 v-height gradient">
 
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[3]->foto }}');"></div>
 
           <div class="text">
-            <span class="date">Apr. 14th, 2022</span>
+            <span class="date">July 08, 2023</span>
             <h2>{{$daftar_article[3]->judul}}</h2>
           </div>
         </a>
@@ -143,7 +143,7 @@
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[4]->foto }}');"></div>
 
           <div class="text">
-            <span class="date">Apr. 23th, 2022</span>
+            <span class="date">July 08, 2022</span>
             <h2>{{$daftar_article[4]->judul}}</h2>
           </div>
         </a>
@@ -191,7 +191,7 @@
     </div>
 
     <!--start JUMBOTRON-->
-    <section class="section  mt-5" style="background-color: #214252;">
+    <section class="section mt-5" style="background-color: #214252;">
       <div class="container">
         <div class="row align-items-stretch">
           <div class="mt-5 p-5 mb-4 bg-light rounded-3 text-bg-dark" style="background-image: url('img/{{ $daftar_article[8]->foto }}')" >
@@ -241,7 +241,7 @@
                         <strong class="d-inline-block mb-2 text-primary"></strong>
                         <h4 class="mb-auto">{{$daftar_article[10]->judul}}</h4>
                         <h6 class="mb-auto text-secondary">{{$daftar_article[10]->judul2}}</h6>
-                        <a href="art2.php" class="stretched-link">Continue reading</a>
+                        <a href="art2.php" class="stretched-link">Lanjut Membca</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img src="img/{{ $daftar_article[10]->foto }}" width="230" height="250" alt="">
@@ -254,7 +254,7 @@
                         <strong class="d-inline-block mb-2 text-primary">World</strong>
                         <h4 class="mb-auto">{{$daftar_article[11]->judul}}</h4>
                         <h6 class="mb-auto text-secondary">{{$daftar_article[11]->judul2}}</h6>
-                        <a href="art2.php" class="stretched-link">Continue reading</a>
+                        <a href="art2.php" class="stretched-link">Lanjut Membaca</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img src="img/{{ $daftar_article[11]->foto }}" width="230" height="250" alt="">
@@ -349,11 +349,14 @@
 <div class="container mt-5">
   <div class="row text-center mb-3">
     <div class="col" style="color: #214252;">
-        <h1><b>Baca Lagi</b></h1>
-        <h2>Berikut rekomendasi artikel</h2>
+        <h1><b>"To live is To Suffer , To Survive is to Find
+          Some Meaning in The Suffering."</b></h1>
+        <h2>Friedrich Nietzsche</h2>
     </div>
 </div>
 </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#214252" fill-opacity="1" d="M0,256L60,266.7C120,277,240,299,360,261.3C480,224,600,128,720,122.7C840,117,960,203,1080,218.7C1200,235,1320,181,1380,154.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg><footer class="site-footer">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>

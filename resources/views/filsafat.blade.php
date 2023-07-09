@@ -116,25 +116,29 @@
     display: inline-block; }
 </style>
 
-
-<main class="container py-4">
+<div class="section" style="color: white; background-color: #214252;">
+  <div class="container py-5 pb-3">
     <div class="p-4 p-md-5 mb-4 rounded  border text-bg-light" style="background-image:url('img/{{ $filsafat[1]->foto }}')">
-        <div class="col-md-6 px-0 border" style="backdrop-filter: blur(5px); text-shadow: 2px 2px 5px black;" >
-            <h1 class="display-4 fst-italic">{{$filsafat[1]->judul}}</h1>
-            <p class="lead my-3">{{$filsafat[1]->judul2}}.</p>
-            <p class="lead mb-0"><a href="#" class=" fw-bold">Lanjut Membaca...</a></p>
+      <div class="col-md-6 px-0 border" style="backdrop-filter: blur(5px); text-shadow: 2px 2px 5px black;" >
+        <h1 class="display-4 fst-italic">{{$filsafat[1]->judul}}</h1>
+        <p class="lead my-3">{{$filsafat[1]->judul2}}.</p>
+        <a href="/articlefilsafat.empat" class="stretched-link">Continue reading</a>
       </div>
     </div>
-  
+  </div>
+</div>
+
+<div class="section mt-5">
+  <div class="container">
     <div class="row mb-2">
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">Philosophy</strong>
             <h3 class="mb-0">{{$filsafat[0]->judul}}</h3>
-            <div class="mb-1 text-muted">Nov 12</div>
+            <div class="mb-1 text-muted"><b>July 07</b></div>
             <p class="card-text mb-auto">{{$filsafat[0]->judul2}}.</p>
-            <a href="#" class="stretched-link">Continue reading</a>
+            <a href="articlefilsafat.dua" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
             <img src="img/{{ $filsafat[0]->foto }}" alt="" srcset="">  
@@ -144,19 +148,21 @@
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-success">Design</strong>
+            <strong class="d-inline-block mb-2 text-primary">Philosophy</strong>
             <h3 class="mb-0">{{$filsafat[2]->judul}}</h3>
-            <p class="mb-auto">{{$filsafat[2]->judul2}}.</p>
-            <a href="#" class="stretched-link">Continue reading</a>
+            <div class="mb-1 text-muted"><b>July 08</b></div>
+            <p class="card-text mb-auto">{{$filsafat[2]->judul2}}.</p>
+            <a href="articlefilsafat.lima" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <img src="img/{{ $filsafat[2]->foto }}" width="200" height="300" aria-label="Placeholder: Thumbnail" alt="" srcset="">  
-            {{-- <svg class="bd-placeholder-img" style="" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> --}}
+            <img src="img/{{ $filsafat[2]->foto }}" alt="" srcset="">  
           </div>
         </div>
       </div>
     </div>
-  
+  </div>
+</div>
+<main class="container py-4">
     <div class="row g-5">
       <div class="col-md-8">
         <h3 class="pb-4 mb-4 fst-italic border-bottom">
@@ -166,41 +172,35 @@
         <article class="blog-post">
           <div class=" mt-5 row featurette border rounded overflow-hidden shadow-sm h-md-250 position-relative">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">xixixi </h2>
-                <p class="lead" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">cicicic</p>
-                <a href="bendera.php" class="stretched-link"></a>
+                <h2 class="featurette-heading fw-normal lh-1">{{$filsafat[3]->judul}}.</h2>
+                <p class="lead" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">{{$filsafat[3]->judul2}}</p>
+                <a href="/articlefilsafat.enam" class="stretched-link"></a>
             </div>
             <div class="col-md-5 mt-2 mb-3">
-                <img src="img/sukarno3.jpg" width="500" height="500" class="img-thumbnail" alt="...">
+                <img src="img/{{ $filsafat[3]->foto }}" width="500" height="500" class="img-thumbnail" alt="...">
                 </svg>
 
             </div>
         </div>
         </article>
   
-        <article class="blog-post">
-          <h2 class="blog-post-title mb-1">Another blog post</h2>
-          <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+        <article class="blog-post" >
+          <h2 class="blog-post-title mb-1">{{$filsafat[3]->judul2}}</h2>
+          <p class="blog-post-meta">July 08, 2023 by <a href="#">Furqan</a></p>
   
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          <p>{{$filsafat[3]->keterangan}}.</p>
           <blockquote>
-            <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+            <p>Nah, Alain de Botton berhasil menemukan solusi atas keresahan yang kita semua rasakan. Ia memberikan suatu pandangan baru mengenai makna hidup yang lebih bahagia untuk dijalani. Alain menawarkan metode hidup biasa aja yang bisa diterapkan oleh semua orang .</p>
           </blockquote>
-          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
           <div class="row">  
           <div class="col-md-7 col-lg-12">
               <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div class="col p-4 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-primary">World</strong>
-                  <h3 class="mb-0">Featured post</h3>
-                  <div class="mb-1 text-muted">Nov 12</div>
-                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="stretched-link">Continue reading</a>
+                  <strong class="d-inline-block mb-2 text-primary">{{$filsafat[4]->judul}}</strong>
+                  <p class="card-text mb-auto">{{$filsafat[4]->keterangan}}.</p>
+                  <a href="/articlefilsafat.tujuh" class="stretched-link">Lanjut Membaca</a>
                 </div>
-                <div class="col-auto d-none d-lg-block">
-                  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                </div>
+                
               </div>
             </div>
           </div>
@@ -209,19 +209,15 @@
           <h2 class="blog-post-title mb-1">New feature</h2>
         <div class=" col-md-7 col-lg-8 mb-5">
             <div class="card">
-                <img src="img/teukudaud.jpg" alt="">
+                <img src="img/{{$filsafat[5]->foto}}" alt="">
                 <div class="card-body">
-                    <a href="art9.php" class="stretched-link"></a>
-                    <h5 class="card-title">teuku daud</h5>
-                    <p class="card-text">Lorem ipsum dolor sit.</p>
+                    <a href="/articlefilsafat.delapan" class="stretched-link"></a>
+                    <h5 class="card-title">{{$filsafat[5]->judul}}</h5>
+                    <p class="card-text">{{$filsafat[5]->judul2}}.</p>
                 </div>
             </div>
         </div>
         </article>
-        <nav class="blog-pagination" aria-label="Pagination">
-          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-          <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
-        </nav>
       </div>
   
 
@@ -232,51 +228,27 @@
   </main>
 
   <!-- Start posts-entry -->
-	<section class="section posts-entry posts-entry-sm bg-light">
+	<section class="section posts-entry posts-entry-sm " style="color: white; background-color: #214252;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-lg-3">
-					<div class="blog-entry">
-						<a href="single.html" class="img-link">
-							<img src="img/img_2_horizontal.jpg" alt="Image" class="img-fluid">
+				<div class="col-md-6 col-lg-6 py-3">
+					<div class="blog-entry card  rounded" style="color: white; background-color: #214252;">
+							<img src="img/{{$filsafat[6]->foto}}" alt="Image" class="img-fluid">
 						</a>
-						<span class="date">Apr. 14th, 2022</span>
-						<h2><a href="single.html">Thought you loved Python? Wait until you meet Rust</a></h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p><a href="#" class="read-more">Continue Reading</a></p>
+						<span class="date">July 08, 2023</span>
+						<h1 class="">{{$filsafat[6]->judul}}</h1>
+						<p>{{$filsafat[6]->judul2}}.</p>
+						<p><a href="/articlefilsafat.sembilan" class="stretched-link"></a></p>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="blog-entry">
-						<a href="single.html" class="img-link">
-							<img src="img/img_2_horizontal.jpg" alt="Image" class="img-fluid">
+				<div class="col-md-6 col-lg-6 py-3">
+					<div class="blog-entry card  rounded" style="color: white; background-color: #214252;">
+							<img src="img/{{$filsafat[7]->foto}}" width="100%;" alt="Image" class="img-fluid">
 						</a>
-						<span class="date">Apr. 14th, 2022</span>
-						<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p><a href="#" class="read-more">Continue Reading</a></p>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="blog-entry">
-						<a href="single.html" class="img-link">
-							<img src="img/img_3_horizontal.jpg" alt="Image" class="img-fluid">
-						</a>
-						<span class="date">Apr. 14th, 2022</span>
-						<h2><a href="single.html">UK sees highest inflation in 30 years</a></h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p><a href="#" class="read-more">Continue Reading</a></p>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="blog-entry">
-						<a href="single.html" class="img-link">
-							<img src="img/img_4_horizontal.jpg" alt="Image" class="img-fluid">
-						</a>
-						<span class="date">Apr. 14th, 2022</span>
-						<h2><a href="single.html">Don’t assume your user data in the cloud is safe</a></h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p><a href="#" class="read-more">Continue Reading</a></p>
+						<span class="date">July 08, 2023</span>
+						<h1>{{$filsafat[7]->judul}}</h1>
+						<p>{{$filsafat[7]->judul2}}.</p>
+						<p><a href="/articlefilsafat.sepuluh" class="stretched-link"></a></p>
 					</div>
 				</div>
 			</div>
@@ -285,44 +257,37 @@
 
   <section class="section mt-5">
 		<div class="container">
-
 			<div class="row mb-4">
 				<div class="col-sm-6">
-					<h2 class="posts-entry-title">Politics</h2>
+					<h2 class="posts-entry-title">Philosophy</h2>
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-lg-4 mb-4">
-					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="img/img_7_horizontal.jpg" alt="Image" class="img-fluid"></a>
-						<div class="excerpt">
-							
-
-							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
-							
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
-							<p><a href="#" class="read-more">Continue Reading</a></p>
+					<div class="post-entry-alt card">
+						<img width="100%;" src="img/{{$filsafat[8]->foto}}" alt="Image" class="img-fluid">
+						<div class="excerpt mt-3">
+							<h2>{{$filsafat[8]->judul}}</h2>
+							<p>{{$filsafat[8]->judul2}}.</p>
+							<p><a href="/articlefilsafat.sebelas" class="stretched-link"></a></p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 mb-4">
-					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="img/img_6_horizontal.jpg" alt="Image" class="img-fluid"></a>
-						<div class="excerpt">
-							
-
-							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
-							
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
-							<p><a href="#" class="read-more">Continue Reading</a></p>
+					<div class="post-entry-alt card">
+						<img src="img/{{$filsafat[9]->foto}}" alt="Image" class="img-fluid">
+						<div class="excerpt mt-3">
+							<h2>{{$filsafat[9]->judul}}</h2>
+							<p>{{$filsafat[9]->judul2}}.</p>
+              <p><a href="/articlefilsafat.duabelas" class="stretched-link"></a></p>
 						</div>
 					</div>
 				</div>
-				
+      </div>
+      </div>
 	</section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#214252" fill-opacity="1" d="M0,256L60,266.7C120,277,240,299,360,261.3C480,224,600,128,720,122.7C840,117,960,203,1080,218.7C1200,235,1320,181,1380,154.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg><footer class="site-footer">
+
 
 
 
