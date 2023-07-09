@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container-lg">
+<div class="container-lg" style="color: #214252">
     <div class="row">
             <div class="col-lg-12 mt-2 text-center">
                 <h1>Mendalami Makna Simbol Negara</h1>
@@ -14,6 +14,7 @@
                 </div>
             </div>
     </div>
+</div>
     <div class="container-lg mt-5">
         <div class="col-10">
 
@@ -37,7 +38,6 @@
         <p>Panitia memutuskan memakai warna merah dan putih karna memiliki makna, merah yaitu berani dan putih berarti suci sehingga menjadi jati diri bangsa indonesia. begitu lah sejarah dan makna terciptanya bendera merah putih. Dan kita sebagai penerus bangsa wajib untuk menghargai sebuah perjuangan dan pengorbanan yang telah dilakukan pejuang kita disaat itu dan tidak boleh melupakan sejarah yang telah diberikan untuk bangsa indonesia,karena kalau tidak ada pejuang maka tidak ada kemerdekaan bangsa indonesia. </p>
     </div>
     
-</div>
 </div>
 <div class="container-lg mt-5">
 

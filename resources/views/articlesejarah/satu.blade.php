@@ -1,7 +1,7 @@
 @extends('layout.amerta')
 
 @section('content')
-<div class="container-lg">
+<div class="container-lg" style="color: #214252">
     <div class="row">
        
 

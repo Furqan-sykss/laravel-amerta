@@ -42,6 +42,9 @@ Route::get('/sejarah', [sejarahController::class, 'show']);
 //     return view('sejarah');
 // });
 
+
+
+//Article Sejarah
 Route::get('articlesejarah.satu', function () {
     return view('articlesejarah.satu');
 });
@@ -78,6 +81,8 @@ Route::get('articlesejarah.duapuluhdua', function () {
 
 
 
+
+//Article Filsafat
 Route::get('articlefilsafat.dua', function () {
     return view('articlefilsafat.dua');
 });
@@ -107,4 +112,7 @@ Route::get('articlefilsafat.sebelas', function () {
 });
 Route::get('articlefilsafat.duabelas', function () {
     return view('articlefilsafat.duabelas');
+});
+Route::get('articlefilsafat.tigabelas', function () {
+    return view('articlefilsafat.tigabelas');
 });

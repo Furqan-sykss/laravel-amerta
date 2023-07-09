@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container-lg">
+<div class="container-lg" style="color: #214252">
     <div class="row">
             <div class="col-lg-12 mt-5 ">
                 <h1 class="text-center">Kemenangan dan Kegagalan di Aceh</h1>

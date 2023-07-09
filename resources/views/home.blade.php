@@ -98,19 +98,15 @@
   <div class="container">
     <div class="row align-items-stretch retro-layout mt-3">
       <div class="col-md-4 py-4">
-        <a href="single.html" class="h-entry mb-30 v-height gradient">
-
+        <a href="/articlesejarah.satu" class="h-entry mb-30 v-height gradient">
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[0]->foto }}');"></div>
-
           <div class="text">
             <span class="date">July 08, 2023</span>
             <h2>{{$daftar_article[0]->judul}}</h2>
           </div>
         </a>
-        <a href="single.html" class="h-entry v-height gradient">
-
+        <a href="/articlesejarah.tigaa" class="h-entry v-height gradient">
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[2]->foto }}');"></div>
-
           <div class="text">
             <span class="date">July 08, 2023</span>
             <h2>{{$daftar_article[2]->judul}}</h2>
@@ -118,7 +114,7 @@
         </a>
       </div>
       <div class="col-md-4 py-4">
-        <a href="single.html" class="h-entry img-5 h-100 gradient">
+        <a href="/articlefilsafat.dua" class="h-entry img-5 h-100 gradient">
 
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[1]->foto }}');"></div>
 
@@ -129,7 +125,7 @@
         </a>
       </div>
       <div class="col-md-4 py-4">
-        <a href="single.html" class="h-entry mb-30 v-height gradient">
+        <a href="/articlefilsafat.empat" class="h-entry mb-30 v-height gradient">
 
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[3]->foto }}');"></div>
 
@@ -138,7 +134,7 @@
             <h2>{{$daftar_article[3]->judul}}</h2>
           </div>
         </a>
-        <a href="single.html" class="h-entry v-height gradient">
+        <a href="/articlefilsafat.lima" class="h-entry v-height gradient">
 
           <div class="featured-img" style="background-image: url('img/{{ $daftar_article[4]->foto }}');"></div>
 
@@ -149,6 +145,13 @@
         </a>
       </div>
     </div>
+    <div class="row text-center mb-3 mt-4">
+      <div class="col mb-4" style="color: white;">
+          <h1><b>"To live is To Suffer , To Survive is to Find
+            Some Meaning in The Suffering."</b></h1>
+          <h2>Friedrich Nietzsche</h2>
+      </div>
+  </div>
   </div>
 </section>
 
@@ -161,18 +164,21 @@
         </div>
         <div class="carousel-inner  border rounded shadow-sm h-md-250">
             <div class="carousel-item active" data-bs-interval="10000">
+              <a href="/articlefilsafat.enam" class="stretched-link"></a>
                 <img src="img/{{ $daftar_article[5]->foto }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <p>{{$daftar_article[5]->judul}}.</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
+              <a href="/articlefilsafat.tujuh" class="stretched-link"></a>
                 <img src="img/{{ $daftar_article[6]->foto }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <p>{{$daftar_article[6]->judul}}.</p>
                 </div>
             </div>
             <div class="carousel-item">
+              <a href="/articlefilsafat.delapan" class="stretched-link"></a>
                 <img src="img/{{ $daftar_article[7]->foto }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <p>{{$daftar_article[7]->judul}}.</p>
@@ -198,6 +204,7 @@
             <div class="mt-3 col-md-6 px-0 border" style="backdrop-filter: blur(5px); text-shadow: 2px 2px 5px black;">
               <h1 class="display-5 fw-bold">{{$daftar_article[8]->judul}}</h1>
               <p class="col-md-8 fs-4 ">{{$daftar_article[8]->judul2}}.</p>
+              <a href="/articlefilsafat.sembilan" class="stretched-link"></a>
             </div>
           </div>
         </div>
@@ -212,7 +219,7 @@
           <div class="col-md-7 mt-2">
             <h2 class="featurette-heading fw-normal lh-1">{{$daftar_article[9]->judul}}</h2>
             <p class="lead" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">{{$daftar_article[9]->judul2}}.</p>
-            <a href="art1.php" class="stretched-link"></a>
+            <a href="/articlefilsafat.sepuluh" class="stretched-link"></a>
           </div>
           <div class="col-md-5 mt-2 mb-3">
             <img src="img/{{ $daftar_article[9]->foto }}" width="500" height="500" class="img-thumbnail" alt="...">
@@ -241,7 +248,7 @@
                         <strong class="d-inline-block mb-2 text-primary"></strong>
                         <h4 class="mb-auto">{{$daftar_article[10]->judul}}</h4>
                         <h6 class="mb-auto text-secondary">{{$daftar_article[10]->judul2}}</h6>
-                        <a href="art2.php" class="stretched-link">Lanjut Membca</a>
+                        <a href="/articlefilsafat.sebelas" class="stretched-link">Lanjut Membca</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img src="img/{{ $daftar_article[10]->foto }}" width="230" height="250" alt="">
@@ -254,7 +261,7 @@
                         <strong class="d-inline-block mb-2 text-primary">World</strong>
                         <h4 class="mb-auto">{{$daftar_article[11]->judul}}</h4>
                         <h6 class="mb-auto text-secondary">{{$daftar_article[11]->judul2}}</h6>
-                        <a href="art2.php" class="stretched-link">Lanjut Membaca</a>
+                        <a href="/articlefilsafat.duabelas" class="stretched-link">Lanjut Membaca</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img src="img/{{ $daftar_article[11]->foto }}" width="230" height="250" alt="">
@@ -270,7 +277,7 @@
             <div class="card-body">
               <h5 class="card-title">{{$daftar_article[12]->judul}}</h5>
               <p class="card-text">{{$daftar_article[12]->judul2}}.</p>
-              <a href="#" class="stretched-link"></a>
+              <a href="/articlefilsafat.tigabelas" class="stretched-link"></a>
             </div>
           </div>
         </div>
@@ -283,7 +290,7 @@
               <figcaption class="blockquote-footer mb-0 text-muted">
                 {{$daftar_article[13]->judul2}}
               </figcaption>
-              <a href="#" class="stretched-link"></a>
+              <a href="/articlesejarah.empatbelas" class="stretched-link"></a>
             </figure>
           </div>
         </div>
@@ -293,7 +300,7 @@
             <div class="card-body">
               <h5 class="card-title">{{$daftar_article[14]->judul}}</h5>
               <p class="card-text">{{$daftar_article[14]->judul2}}.</p>
-              <a href="#" class="stretched-link"></a>
+              <a href="/articlesejarah.limabelas" class="stretched-link"></a>
             </div>
           </div>
         </div>
@@ -306,7 +313,7 @@
               <figcaption class="blockquote-footer mb-0 text-white">
                 {{$daftar_article[15]->judul2}}
               </figcaption>
-              <a href="#" class="stretched-link"></a>
+              <a href="/articlesejarah.enambelas" class="stretched-link"></a>
             </figure>
           </div>
         </div>
@@ -315,31 +322,31 @@
             <div class="card-body">
               <h5 class="card-title">{{$daftar_article[16]->judul}}</h5>
               <p class="card-text">{{$daftar_article[16]->judul2}}.</p>
-              <a href="#" class="stretched-link"></a>
+              <a href="/articlesejarah.tujuhbelas" class="stretched-link"></a>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
           <div class="card">
             <img src="img/{{ $daftar_article[17]->foto }}" alt="">
-            <a href="#" class="stretched-link"></a>        
+            <a href="/articlesejarah.delapanbelas" class="stretched-link"></a>        
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
           <div class="card p-3 text-center">
             <figure class="mb-0">
-              <h5 class="card-title">{{$daftar_article[17]->judul}}</h5>
+              <h5 class="card-title">{{$daftar_article[17]->judul}}as</h5>
               <p class="card-text">{{$daftar_article[17]->judul2}}.</p>
-              <a href="#" class="stretched-link"></a>
+              <a href="/articlesejarah.delapanbelas" class="stretched-link"></a>
             </figure>
           </div>
         </div>
         <div class="col-sm-6 col-lg-4 mb-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">{{$daftar_article[18]->judul}}</h5>
+              <h5 class="card-title">{{$daftar_article[18]->judul}}sss</h5>
               <p class="card-text">{{$daftar_article[18]->judul2}}.</p>
-              <a href="#" class="stretched-link"></a>
+              <a href="/articlesejarah.sembilanbelas" class="stretched-link"></a>
             </div>
           </div>
         </div>

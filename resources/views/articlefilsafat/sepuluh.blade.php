@@ -1,7 +1,7 @@
 @extends('layout.amerta')
 
 @section('content')
-<div class="container-lg">
+<div class="container-lg" style="color: #214252">
     <div class="row">
             <div class="col-lg-12 mt-2 text-center">
                 <h1>Seneca dan Kebebasan Batin
@@ -14,6 +14,7 @@
                                 <img class="" src="img/26373-seneca.jpg" alt="">
                             </div>
             </div>
+</div>
 </div>
 <div class="container-lg mt-5">
     <div class="row">
@@ -65,7 +66,6 @@
     </div>
 </div>
 
-</div>
 
 <div class="container-lg mt-5">
 

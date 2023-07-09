@@ -2,21 +2,22 @@
 
 @section('content')
 
+
 <div class="container-lg" style="color: #214252">
     <div class="row">
             <div class="col-lg-12 mt-2 text-center">
-                <h1>Aristoteles dan Pemikiran-Pemikirannya Kepada Semesta
+                <h1>Konsep Filsafat Cinta Menurut Para Filsuf Dunia
                 </h1>
-                            <br>
-                            <h4 class="text-secondary">Sudah 25 abad lamanya ia meninggal dunia. Tapi, dunia masih mengenal nama dan pemikirannya. Ialah Aristoteles, sang filsuf Yunani.
-                            </h4>
-                            <br>
-                            <div class="">
-                                <img class="" src="img/58994-Aristoteles.jpg" alt="" width="80%;">
-                            </div>
+                <br>
+                <h4 class="text-secondary">Filsafat cinta hadir untuk memberikan makna dan mencoba memahami apa arti dari cinta itu sendiri.
+                </h4>
+                <br>
+                <div class="">
+                    <img class="" src="img/37360-art11.jpg" alt="" width="80%;">
+                </div>
             </div>
         </div>
-</div>
+    </div>
 <div class="container-lg mt-5">
     <div class="row">
         <div class="col-lg-10">
@@ -63,8 +64,8 @@
 
         </div>
     </div>
-
 </div>
+
 
 <div class="container-lg mt-5">
 

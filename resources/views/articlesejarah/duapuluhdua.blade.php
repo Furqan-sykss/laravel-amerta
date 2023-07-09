@@ -1,9 +1,9 @@
 @extends('layout.amerta')
 
 @section('content')
-<div class="container-lg">
+<div class="container-lg" style="color: #214252">
     <div class="row">
-            <div class="col-lg-12 mt-2 text-center">
+            <div class="col-lg-12 mt-2 text-center" >
                 <h1>Lima Perempuan Penerima Bintang Gerilya</h1>
                             <br>
                             <h4>Lima perempuan ini berperan besar dalam perjuangan kemerdekaan. Membuat mereka jadi target Belanda.</h4>
@@ -11,8 +11,9 @@
                             <div class="">
                                 <img class="" src="img/gerilya.jpg" alt="" width="80%" height="100%">
                             </div>
-            </div>
-</div>
+                        </div>
+                    </div>
+                </div>
 <div class="container-lg mt-5">
     <div class="row">
         <div class="col col-lg-9">
@@ -69,7 +70,6 @@
     </div>
 </div>
 
-</div>
 
 <div class="container-lg mt-5">
 

@@ -283,6 +283,16 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-4 mb-4">
+					<div class="post-entry-alt card">
+						<img src="img/{{$filsafat[10]->foto}}" alt="Image" class="img-fluid">
+						<div class="excerpt mt-3">
+							<h2>{{$filsafat[10]->judul}}</h2>
+							<p>{{$filsafat[10]->judul2}}.</p>
+              <p><a href="/articlefilsafat.tigabelas" class="stretched-link"></a></p>
+						</div>
+					</div>
+				</div>
       </div>
       </div>
 	</section>

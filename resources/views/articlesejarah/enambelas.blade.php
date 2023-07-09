@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container-lg">
+<div class="container-lg" style="color: #214252">
     <div class="row">
             <div class="col-lg-12 mt-2 text-center">
                 <h1>Pemberontakan DI/TII di Aceh.</h1>

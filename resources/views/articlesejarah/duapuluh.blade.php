@@ -1,7 +1,7 @@
 @extends('layout.amerta')
 
 @section('content')
-<div class="container-lg">
+<div class="container-lg" style="color: #214252">
     <div class="row">
             <div class="col-lg-12 mt-2 text-center">
                 <h1>Jalur rempah nusantara.</h1>
